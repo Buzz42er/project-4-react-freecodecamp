@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Card from "./components/Card"
 import './App.css'
+import data from './data'
 
 /*
 Challenge:
@@ -17,20 +18,24 @@ still be block elements, stacked vertically. We'll add styling later.
 */
 
 export default function App() {
-            
+    const cards = data.map((card) => {
+        
+        return (<Card 
+                    img={card.coverImg}
+                    rating={card.stats.rating}
+                    reviewCount={card.stats.reviewCount}
+                    location={card.location}
+                    title={card.title}
+                    price={card.price}
+                />)
+    })      
+    
     return (
         <div>
             <Navbar />
             <Hero />
             <div className="experiences">
-                <Card 
-                    img="katie-zaferes.png"
-                    rating="5.0"
-                    reviewCount={6}
-                    location="USA"
-                    title="Life Lessons with Katie Zaferes"
-                    price={136}
-                />
+                {cards}
             </div>
 
         </div>

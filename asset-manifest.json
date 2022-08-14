@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/project-4-react-freecodecamp/static/css/main.2ad45a6a.css",
+    "main.js": "/project-4-react-freecodecamp/static/js/main.b105e8ff.js",
+    "index.html": "/project-4-react-freecodecamp/index.html",
+    "main.2ad45a6a.css.map": "/project-4-react-freecodecamp/static/css/main.2ad45a6a.css.map",
+    "main.b105e8ff.js.map": "/project-4-react-freecodecamp/static/js/main.b105e8ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ad45a6a.css",
+    "static/js/main.b105e8ff.js"
+  ]
+}

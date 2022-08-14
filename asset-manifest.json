@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-4-react-freecodecamp/static/css/main.770c0138.css",
-    "main.js": "/project-4-react-freecodecamp/static/js/main.3757dc15.js",
+    "main.js": "/project-4-react-freecodecamp/static/js/main.2174e76b.js",
     "static/media/photo-grid.png": "/project-4-react-freecodecamp/static/media/photo-grid.294d59b66b94e0e456cf.png",
     "static/media/mountain-bike.png": "/project-4-react-freecodecamp/static/media/mountain-bike.e249d8a7c9dd6935df4c.png",
     "static/media/wedding-photography.png": "/project-4-react-freecodecamp/static/media/wedding-photography.62dfa0af6d4f23912427.png",
@@ -9,10 +9,10 @@
     "static/media/airbnb-logo.png": "/project-4-react-freecodecamp/static/media/airbnb-logo.e4424517383d14a03a24.png",
     "index.html": "/project-4-react-freecodecamp/index.html",
     "main.770c0138.css.map": "/project-4-react-freecodecamp/static/css/main.770c0138.css.map",
-    "main.3757dc15.js.map": "/project-4-react-freecodecamp/static/js/main.3757dc15.js.map"
+    "main.2174e76b.js.map": "/project-4-react-freecodecamp/static/js/main.2174e76b.js.map"
   },
   "entrypoints": [
     "static/css/main.770c0138.css",
-    "static/js/main.3757dc15.js"
+    "static/js/main.2174e76b.js"
   ]
 }

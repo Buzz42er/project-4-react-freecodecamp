@@ -15,17 +15,34 @@ export default function Card(props) {
     */
     
     return (
+
+        //if card={card}
+        // <div className="card">
+        //     {badgeText && <div className="cardBadge">{badgeText}</div>}
+        //     <img src={require(`../images/${props.card.coverImg}`)} className="card--image"  alt=""/>
+        //     <div className="card--stats">
+        //         <img src={require("../images/star.png")} className="card--star" alt="" />
+        //         <span>{props.card.stats.rating}</span>
+        //         <span className="gray">({props.card.stats.reviewCount}) • </span>
+        //         <span className="gray">{props.card.location}</span>
+        //     </div>
+        //     <p className="card--title">{props.card.title}</p>
+        //     <p className="card--price"><span className="bold">From ${props.card.price}</span> / person</p>
+        // </div>
+
+        //if {...card}
         <div className="card">
             {badgeText && <div className="cardBadge">{badgeText}</div>}
-            <img src={require(`../images/${props.img}`)} className="card--image"  alt=""/>
+            <img src={require(`../images/${props.coverImg}`)} className="card--image"  alt=""/>
             <div className="card--stats">
                 <img src={require("../images/star.png")} className="card--star" alt="" />
-                <span>{props.rating}</span>
-                <span className="gray">({props.reviewCount}) • </span>
+                <span>{props.stats.rating}</span>
+                <span className="gray">({props.stats.reviewCount}) • </span>
                 <span className="gray">{props.location}</span>
             </div>
             <p className="card--title">{props.title}</p>
             <p className="card--price"><span className="bold">From ${props.price}</span> / person</p>
         </div>
+
     )
 }

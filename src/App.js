@@ -22,13 +22,18 @@ export default function App() {
         
         return (<Card 
                     key={card.id}
-                    openSpots={card.openSpots}
-                    img={card.coverImg}
-                    rating={card.stats.rating}
-                    reviewCount={card.stats.reviewCount}
-                    location={card.location}
-                    title={card.title}
-                    price={card.price}
+                    // openSpots={card.openSpots}
+                    // img={card.coverImg}
+                    // rating={card.stats.rating}
+                    // reviewCount={card.stats.reviewCount}
+                    // location={card.location}
+                    // title={card.title}
+                    // price={card.price}
+
+                    // card={card} 
+                    
+                    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals
+                    {...card}
                 />)
     })      
     
@@ -43,3 +48,5 @@ export default function App() {
         </div>
     )
 }
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals
